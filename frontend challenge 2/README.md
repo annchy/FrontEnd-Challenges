@@ -1,4 +1,4 @@
-The challenge was to create and image like the one shown below
+The challenge was to create a site like the one shown below
 
 ![](https://github.com/anshulchaudhary0677/FrontEnd-Challenges/blob/main/frontend%20challenge%202/img/challenges.png)
 
