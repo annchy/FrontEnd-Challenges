@@ -1,0 +1,76 @@
+body {
+    background-color: #674baf;
+
+}
+
+a {
+    text-decoration: none;
+    color: #cca8e9;
+}
+
+.text {
+    color: white;
+    position: absolute;
+    left: 60%;
+    top: 30%;
+}
+
+.text-h1 {
+    text-align: left;
+    width: 70%;
+    font-family: "Poppins", sans-serif;
+    font-size: 40px;
+}
+
+.text-p {
+    text-align: left;
+    width: 70%;
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+    padding-bottom: 30px;
+}
+
+.btn {
+    border: none;
+    border-radius: 50px;
+    background-color: white;
+    box-shadow: 5px 5px #222831;
+    color: #674baf;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 15px 60px;
+}
+
+.btn:hover {
+    color: white;
+    background-color: #cca8e9;
+}
+
+
+.bg-img {
+    background-position: center;
+    /* to cover the image whole background, i.e. no white spaces (default one) should be left behind  */
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.logo {
+    position: relative;
+    left: 5%;
+    top: 25px;
+}
+
+.main-img {
+    position: absolute;
+    top: 25%;
+    left: 5%;
+}
+
+.footer {
+    color: white;
+    font-size: 13px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+}
