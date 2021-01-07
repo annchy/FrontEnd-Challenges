@@ -1,0 +1,108 @@
+body {
+    background-color: #00B6C7;
+    background-image: linear-gradient(rgba(100, 0, 0, 0.1), rgba(0, 0, 0, 0.5))) font-family: 'Nunito', sans-serif;
+
+}
+
+hr {
+    border-style: none;
+    border-top-style: solid;
+    border-width: 2px;
+    border-color: #c1c1c1;
+
+}
+
+
+.bg1 {
+    position: absolute;
+    transform: translate(-35%, -75%);
+}
+
+.bg2 {
+    position: fixed;
+    transform: translate(90%, 20%);
+}
+
+.card {
+    margin-top: 150px;
+    width: 300px;
+    height: 400px;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url("../img/bg-pattern-card.svg");
+    background-size: 300px 120px;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+}
+
+.card-p {
+    font-weight: 100;
+    color: darkgray;
+}
+
+
+.vic {
+    padding: 5px;
+    background-color: white;
+    border-radius: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 75px;
+}
+
+
+.stats {
+    display: flex;
+    line-height: 1;
+    margin-top: 0;
+}
+
+.div1 {
+    margin-left: 30px;
+    flex: 1;
+}
+
+.div2 {
+    margin-left: 30px;
+    flex: 1;
+}
+
+.div3 {
+    margin-left: 30px;
+    flex: 1;
+}
+
+.stat {
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.stat-name {
+    font-size: 10px;
+    margin-bottom: 20px;
+}
+
+.footer {
+    color: white;
+    font-size: 13px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+}
+
+.footer a {
+    text-decoration: none;
+    color: #cae4db;
+}
+
+
+@media screen and (max-width:706px) {
+    .top {
+        transform: translate(-70%, -55%);
+    }
+
+    .bottom {
+        transform: translate(25%, 65%)
+    }
+}
