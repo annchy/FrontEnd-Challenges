@@ -99,7 +99,7 @@ a {
     color: #ffe8df;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 800px) {
     .images {
         display: none;
     }
