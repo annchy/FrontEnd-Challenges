@@ -63,3 +63,15 @@
       background-position: 400%;
     }
   }
+
+.footer {
+    font-size: 13px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+}
+
+.footer a {
+    text-decoration: none;
+    color: #ffe8df;
+}
