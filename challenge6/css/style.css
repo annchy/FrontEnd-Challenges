@@ -1,0 +1,29 @@
+body{
+    background-color: #FF7A7A;
+}
+
+.bg{
+    position: fixed;
+}
+
+.main { 
+    color: white;
+}
+
+.main-h {
+    width: 50px;
+    font: 50px;
+    position: absolute;
+    top: 30%;
+    left: 30%;
+}
+
+.main-p {
+    width: 100px;
+    font: 25px;
+    position: absolute;
+    top: 40%;
+    left: 30%;}
+
+
+
